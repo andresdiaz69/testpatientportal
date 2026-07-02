@@ -41,7 +41,7 @@ export default function Login() {
                                         />
                                     </div>
 
-                                    <Button type='submit' onCLick={() => navigate('./Dashboard/')}>Login</Button>
+                                    <Button type='button' onCLick={() => navigate('./Dashboard/')}>Login</Button>
 
                                 </form>
 
